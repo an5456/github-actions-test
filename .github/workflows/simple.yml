@@ -1,5 +1,8 @@
 name: shell Commands
-on: [push]
+on:
+  push:
+    branches:
+      - dev
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
