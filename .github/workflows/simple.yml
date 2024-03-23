@@ -7,7 +7,7 @@ jobs:
       - name: echo a string
         run: echcco "hello World"
       - name: multiline script
-        run:
+        run: |
           node -v
           npm -v
 
